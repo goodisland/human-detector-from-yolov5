@@ -57,8 +57,8 @@ def sendMail(to_address:str, dirpath:list, mail_body:str):
     # SMTPサーバの設定
     host = "smtp.gmail.com"
     port = 587
-    user = "goodislandfield@gmail.com"
-    password = "bltlwxplzfmjlpdl"
+    user = "email Address From"
+    password = "App pass"
     
     # メールに関する設定
     subject = "Detect persons alert from YOLOv5"
@@ -274,7 +274,7 @@ def run(
     if sum_persons > 0:
         mail_heading = f"<h1>{sum_persons} person{'s' * (sum_persons > 1)} detected from {source}</h1>"
         mail_html = f"<html>{mail_heading}<ul>{mail_body}</ul></html>"
-        sendMail('makeagoodisland@gmail.com', path_img, mail_html)
+        sendMail('email Address To', path_img, mail_html)
 
     # Print results
     t = tuple(x.t / seen * 1E3 for x in dt)  # speeds per image

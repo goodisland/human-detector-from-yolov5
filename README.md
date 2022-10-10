@@ -20,7 +20,7 @@ Python>=3.7.0 environment, including PyTorch>=1.7.
     
 ## Demo
 
-![Test Image 3](demo_human_detector.png)
+![Demo Image](/demo_human_detector.png)
 
 
 ## Reference
