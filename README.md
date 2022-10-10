@@ -31,8 +31,8 @@ Before run `detect.py`, change settings as follows.
 - Line: 61 `password = "<App pass>"`
 - Line: 277 `sendMail('<email Address To>', path_img, mail_html)` 
 
-For using Gmail, please get <App pass> from following:  
-`Gmail Account>Security>Signing in to Google`
+For using Gmail, please get `<App pass>` from following:  
+`Gmail Account > Security > Signing in to Google`
 
 
 
