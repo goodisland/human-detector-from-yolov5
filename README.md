@@ -4,7 +4,7 @@
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 
 
-This project sends an email when a person is detected from YOLOv5. The content of the email will be the text of the detection result and an attached image, as shown in the Demo. This may be useful, for example, when a fixed-point camera is installed in an off-limits area.
+"Human Detector from YOLOv5" sends an email when a person is detected from YOLOv5. The content of the email will be the text of the detection result and an attached image, as shown in the Demo. This may be useful, for example, when a fixed-point camera is installed in an off-limits area.
 
 
 ## Installation
@@ -20,7 +20,7 @@ Python>=3.7.0 environment, including PyTorch>=1.7.
     
 ## Demo
 
-Insert gif or link to demo
+![Test Image 3](demo_human_detector.png)
 
 
 ## Reference
